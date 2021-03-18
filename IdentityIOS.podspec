@@ -9,12 +9,12 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "IdentityIOS"
-  spec.version      = "0.1.0"
-  spec.summary      = "A short description of IdentityIOS."
+  spec.version      = "0.1.1"
+  spec.summary      = "IdentityIOS Cocoapod for iOS."
 
-  spec.description  = "A short description of IdentityIOS."
+  spec.description  = "iOS framework for identity functionalities."
 
-  spec.homepage     = "http://www.identityd.io/IdentityIOS"
+  spec.homepage     = "http://www.identityd.io"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
   spec.license      = "MIT"
@@ -28,5 +28,7 @@ Pod::Spec.new do |spec|
   spec.dependency                'FaceSDKBeta', '5.4.229'
   spec.dependency                'DocumentReader'
   spec.dependency                'DocumentReaderFull'
+  # spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  # spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 end
