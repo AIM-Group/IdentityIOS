@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "IdentityIOS"
-  spec.version      = "0.1.1"
+  spec.version      = "0.1.2"
   spec.summary      = "IdentityIOS Cocoapod for iOS."
 
   spec.description  = "iOS framework for identity functionalities."
